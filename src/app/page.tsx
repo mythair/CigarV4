@@ -43,7 +43,7 @@ function AnimatedSection({ children, className = "", delay = 0 }: { children: Re
 }
 
 const modules = [
-  { name: "AutoCrystal", icon: <Star size={20} />, desc: "Place crystals automatically with optimized calculations", category: "Combat" },
+  { name: "Clutch", icon: <Star size={20} />, desc: "Place Blocks when your falling to the void", category: "Combat" },
   { name: "KillAura", icon: <Swords size={20} />, desc: "Attack entities within range with customizable settings", category: "Combat" },
   { name: "Velocity", icon: <Zap size={20} />, desc: "Modify knockback and velocity for better movement", category: "Movement" },
   { name: "Speed", icon: <Zap size={20} />, desc: "Increase your movement speed significantly", category: "Movement" },
